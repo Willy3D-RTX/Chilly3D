@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1778443459 source:/home/chilly/Documentos/GitHub/Chilly3D/Chilly3d-Engine/main.cpp
+	"c3d/engine.h"
+
+1778443475 /home/chilly/Documentos/GitHub/Chilly3D/Chilly3d-Engine/c3d/engine.h
+	"platform.h"
+
+1778442820 /home/chilly/Documentos/GitHub/Chilly3D/Chilly3d-Engine/c3d/platform.h
+	<SDL3/SDL.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+
