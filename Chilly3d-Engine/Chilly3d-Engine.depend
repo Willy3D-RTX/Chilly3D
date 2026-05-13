@@ -1,13 +1,26 @@
 # depslib dependency file v1.0
-1778443459 source:/home/chilly/Documentos/GitHub/Chilly3D/Chilly3d-Engine/main.cpp
+1778608358 source:/home/chilly/Documentos/GitHub/Chilly3D/Chilly3d-Engine/main.cpp
 	"c3d/engine.h"
 
-1778443475 /home/chilly/Documentos/GitHub/Chilly3D/Chilly3d-Engine/c3d/engine.h
+1778607960 /home/chilly/Documentos/GitHub/Chilly3D/Chilly3d-Engine/c3d/engine.h
 	"platform.h"
+	"typex.h"
+	"video.h"
+	"draw.h"
 
-1778442820 /home/chilly/Documentos/GitHub/Chilly3D/Chilly3d-Engine/c3d/platform.h
+1778469672 /home/chilly/Documentos/GitHub/Chilly3D/Chilly3d-Engine/c3d/platform.h
 	<SDL3/SDL.h>
+	<SDL3_image/SDL_image.h>
+	<SDL3_mixer/SDL_mixer.h>
+	<SDL3_ttf/SDL_ttf.h>
 	<stdio.h>
 	<stdlib.h>
 	<stdarg.h>
+	<cstdint>
+
+1778471829 /home/chilly/Documentos/GitHub/Chilly3D/Chilly3d-Engine/c3d/video.h
+
+1778608057 /home/chilly/Documentos/GitHub/Chilly3D/Chilly3d-Engine/c3d/draw.h
+
+1778608358 /home/chilly/Documentos/GitHub/Chilly3D/Chilly3d-Engine/c3d/typex.h
 

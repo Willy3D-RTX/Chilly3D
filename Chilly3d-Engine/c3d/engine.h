@@ -27,12 +27,14 @@ void			c3d_video_pixel(int xpos, int ypos, uint16_t color);
 void			c3d_video_clear(uint16_t color);
 
 void c3d_draw_line(int x0, int y0, int x1, int y1, uint16_t color);
+void c3d_draw_triangles(int x0, int y0, int x1, int y1, int x2, int y2, uint16_t color);
+void c3d_draw_rect(int x0, int y0, int x1, int y1, uint16_t color);
 
 /// LIBRERIAS
 /// =========
+#include "typex.h"
 #include "video.h"
 #include "draw.h"
-
 
 void c3d_init(void)
 {

@@ -23,8 +23,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="c3d/draw.h" />
 		<Unit filename="c3d/engine.h" />
 		<Unit filename="c3d/platform.h" />
+		<Unit filename="c3d/typex.h" />
+		<Unit filename="c3d/video.h" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>

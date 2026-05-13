@@ -11,6 +11,8 @@ int main()
 		c3d_video_clear(c3d_video_rgb565(8, 16, 32));
 		c3d_video_pixel(root.video.width/2, root.video.height/2, c3d_video_rgb565(255, 255, 255));
 		c3d_draw_line(0, 0, 100, 100, c3d_video_rgb565(255, 255, 0));
+		c3d_draw_triangles(128, 128, 196, 196, 128, 196, c3d_video_rgb565(0, 255, 0));
+		c3d_draw_rect(200, 200, 280, 240, c3d_video_rgb565(255, 0, 0));
 		c3d_video_present();
 	}
 
